@@ -21,7 +21,7 @@ from tqdm import tqdm
 
 # Step 1: Load the Dataset
 data_df = pd.read_csv(
-    'C:\\Users\\Manish Acharya\\OneDrive\\Desktop\\Proj-2\\transformer\\spoc-train.tsv', delimiter='\t')
+    'https://drive.google.com/file/d/1oNbaCSdq8OKwexw3YcAiDKKHe_Yi1zdn/view?usp=sharing', delimiter='\t')
 
 # Step 2: Handle Missing Values
 # Drop rows with missing values in 'text' or 'code'
